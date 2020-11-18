@@ -565,14 +565,32 @@ h4,
     margin: 0;
     text-transform: uppercase;
 }
-
+/** HENKES EDITS **/
 h5 {
     font-size: 16px;
     line-height: inherit;
     font-weight: 600;
 }
 
+.typography-examples-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.paragraph-example {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+
+/** END HENKES EDITS **/
 p,
 .p1 {
     font-size: 16px;
