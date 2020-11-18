@@ -565,7 +565,18 @@ h4,
     margin: 0;
     text-transform: uppercase;
 }
-/** HENKES EDITS **/
+/** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **//** HENKES EDITS **/
+
+.content-container-henke {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    background: #12c97c;
+}
+
 h5 {
     font-size: 16px;
     line-height: inherit;
@@ -589,8 +600,32 @@ h5 {
     border-radius: 9px;
 }
 
+.white {
+    color: white;
+}
 
-/** END HENKES EDITS **/
+strong {
+    font-weight: 500;
+}
+
+.typographyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1160px;
+    padding-top: 400px;
+}
+
+.typographyContainer p, hr {
+    max-width: 400px; 
+    margin-bottom: 40px !important;
+    margin-top: 0px;
+}
+
+/** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **//** END HENKES EDITS **/
 p,
 .p1 {
     font-size: 16px;
@@ -5024,26 +5059,6 @@ p.big {
         width: calc(100% - 50px);
         margin-top: 0;
     }
-}
-
-strong {
-    font-weight: 500;
-}
-
-.typographyContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    max-width: 1160px;
-}
-
-.typographyContainer p, hr {
-    max-width: 400px;
-    margin-bottom: 40px;
-    margin-top: 0px;
 }
 
 p.p2.faded {
