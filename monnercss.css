@@ -377,7 +377,7 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     color: #1F1F1F;
     -webkit-overflow-scrolling: touch;
     padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
@@ -426,51 +426,51 @@ table td {
 
 @font-face {
     font-family: "monner";
-    src: url("#{$fontPath}/monner.eot");
-    src: url("#{$fontPath}/monner.eot?#iefix") format("embedded-opentype"),
-    url("#{$fontPath}/monner.woff") format("woff"),
-    url("#{$fontPath}/monner.ttf") format("truetype"),
-    url("#{$fontPath}/monner.svg#monner") format("svg");
+    src: url("/monner.eot");
+    src: url("/monner.eot?#iefix") format("embedded-opentype"),
+    url("/monner.woff") format("woff"),
+    url("/monner.ttf") format("truetype"),
+    url("/monner.svg#monner") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     src: url("/fonts/HeroNew/heronew-medium-webfont.woff2") format("woff2"),
     url("/fonts/HeroNew/heronew-medium-webfont.woff") format("woff");
     font-weight: 500;
     font-style: normal; }
 
 @font-face {
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     src: url("/fonts/HeroNew/heronew-semibold.woff2") format("woff2"),
     url("/fonts/HeroNew/heronew-semibold.woff") format("woff");
     font-weight: 600;
     font-style: normal; }
 
 @font-face {
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     src: url("/fonts/HeroNew/heronew-regularitalic-webfont.woff2") format("woff2"),
     url("/fonts/HeroNew/heronew-regularitalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: italic; }
 
 @font-face {
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     src: url("/fonts/HeroNew/heronew-regular-webfont.woff2") format("woff2"),
     url("/fonts/HeroNew/heronew-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
-    font-family: 'Hero New';
-    src: url("/fonts/HeroNew/heronew-light-webfont.woff2") format("woff2"),
-    url("/fonts/HeroNew/heronew-light-webfont.woff") format("woff");
+    font-family: 'HeroNew';
+    src: url("/heronew-semibold-webfont.woff2") format("woff2"),
+        url("/heronew-semibold-webfont.woff") format("woff");
     font-weight: 300;
     font-style: normal; }
 
-@font-face {
+/* @font-face {
     font-family: "monner";
     src: url("/fonts/icons/monner.eot");
     src: url("/fonts/icons/monner.eot?#iefix") format("embedded-opentype"),
@@ -478,7 +478,7 @@ table td {
     url("/fonts/icons/monner.ttf") format("truetype"),
     url("/fonts/icons/monner.svg#monner") format("svg");
     font-weight: normal;
-    font-style: normal; }
+    font-style: normal; } */
 
 h1 {
     font-size: 42px;
@@ -1651,7 +1651,7 @@ hr.bleed:after {
     border: 1px solid rgba(0, 0, 0, 0.08);
     transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
@@ -3056,7 +3056,7 @@ input[type="email"],
 input[type="number"],
 input[type="password"] {
     appearance: none;
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.08);
     color: #1F1F1F;
@@ -3249,7 +3249,7 @@ input[type="password"]:-ms-input-placeholder {
 
 textarea {
     appearance: none;
-    font-family: 'Hero New';
+    font-family: 'HeroNew';
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.08);
     color: #1F1F1F;
@@ -5288,7 +5288,7 @@ p.p2.faded {
 }
 
 .tab.concent p {
-    font-family: "Hero New";
+    font-family: "HeroNew";
     font-size: 14px;
     line-height: 25px;
 }
@@ -5309,7 +5309,7 @@ p.p2.faded {
     padding-left: 40px;
     margin-bottom: 40px;
     cursor: pointer;
-    font-family: "Hero New";
+    font-family: "HeroNew";
     font-size: 14px;
     line-height: 25px;
     user-select: none;
